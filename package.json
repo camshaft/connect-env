@@ -1,0 +1,27 @@
+{
+  "name": "connect-env",
+  "version": "0.1.0",
+  "description": "Request environment middleware for connect",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CamShaft/connect-env.git"
+  },
+  "author": "Cameron Bytheway <cameron@pivotapp.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CamShaft/connect-env/issues"
+  },
+  "dependencies": {
+    "envs": "~0.1.4",
+    "supertest": "~0.8.1"
+  },
+  "devDependencies": {
+    "should": "~2.0.2",
+    "mocha": "~1.13.0",
+    "connect": "~2.10.1"
+  }
+}
